@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-
-</head>
-
-<body>
-    <canvas id="c" style="position: fixed; z-index:-9999"></canvas>
-    <div class="content-wrapper">
-        <span class="fenix">Fenix Tech</span>
-        <span class="by">by FaGuiRo2005</span>
+  <body>
+    <canvas id="c" style="position: fixed; z-index: -9999"></canvas>
+    <div id="pokemon-container">
+        <img id = "pokemon" src="pokemons/pikachu/pikachu_1.gif" alt="">
     </div>
+   
+    <div class="content-wrapper">
+      <div class="button prev">Anterior</div>
+      <div class="button next">Próximo</div>
+      
+      <span class="fenix hide">Fenix Tech</span>
+      <span class="by hide">by FaGuiRo2005</span>
+    </div>
+    <a class="ref" href="#" target="_blank" >🔗 SnakeProject</a>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
